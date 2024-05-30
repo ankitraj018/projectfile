@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+}
+.left{
+    font-size: 1.5rem;
+}
+
+nav{
+    height: 30px;
+    width: 85%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: medium;
+    font-style: calc();
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(71, 23, 204);
+    background-size: cover;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+
+}
+#element{
+    color: rgb(240, 240, 31);
+    font-style: initial;
+    
+}
+nav a:hover{
+    color: rgb(166, 228, 23);
+    font-size: 1.4em;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.Firstsection div{
+    width: 30%;
+}
+.Firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+.yellow{
+    color: rgb(202, 202, 14);
+}
+
+.leftsection{
+    font-size: 1.7rem;
+    margin: 70px;
+    margin-right: 50%;
+}
+.rightsection img{
+     width: 55%;
+     margin-left: 40%;
+     border-image: round;
+    
+}
+
+h1{
+    color: rgb(156, 24, 24);
+    size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-display: 50px;
+    font-size: x-large;
+    margin:top;
+}
+h2{
+    text-align: center;
+    font-size: medium;
+    border: top right radius 20px; ;
+    color: rgb(230, 230, 19);
+}
