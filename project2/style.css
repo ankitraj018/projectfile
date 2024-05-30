@@ -1,0 +1,38 @@
+.calculator {
+    width: 200px;
+    margin: 0 auto;
+  }
+  body{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: calc();
+    background-image:url("ankit.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(90, 10, 90);
+  }
+  
+  #display {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: large;
+  }
+  
+  .buttons {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  button {
+    height: 50;
+    width: 50;
+    color:rgb(51, 7, 7);
+    padding: 10px;
+    font-size: 30px;
+
+    
+  }
+  
