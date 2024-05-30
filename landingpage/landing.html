@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body background="chai3.jpg">
+    <header>
+        <nav>
+            <div class="logo">BCA CHAIWALA</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="leftsection">
+        Hii, Everyone Welcome to my  <span class="yellow">BCA CHAIWALA</span>
+       and Provide Various Variety of Tea in my shop
+        <div> 
+        </div>
+        <span id="element"></span>
+
+
+
+    <section id="home" class="home-section">
+        <div class="rightsection">
+            <h1>Welcome to my Chai shope</h1>
+            <p>Quality is good</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>At Chai wala, Masala chai is a popular beverage throughout South Asia, originating in the early Indian subcontinent. </p>
+    </section>
+
+    <section id="products" class="products-section">
+        <h2>Our Products</h2>
+        <div class="product-card">
+            <img src="chai1.jpg" alt="Chai 1" >
+            <h3>Classic Chai</h3>
+            <p>A traditional blend of spices and tea leaves.</p>
+        </div>
+        <div class="product-card">
+            <img src="chai2.jpg" alt="Chai 2">
+            <h3>Masala Chai</h3>
+            <p>A rich and spicy chai blend.</p>
+        </div>
+        <!-- Add more products as needed -->
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Chai Delight. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['classic tea.', 'Green tea.', 'black tea.', 'Laman tea.','Massala tea'],
+          typeSpeed: 40,
+        });
+      </script>
+
+</body>
+</html>
